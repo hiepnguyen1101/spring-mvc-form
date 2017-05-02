@@ -16,5 +16,5 @@ public class UserController {
 	private final Logger logger = LoggerFactory.getLogger(UserController.class);
 	@Autowired
 	private UserService userService;
-	@InitBinder
+	
 }
